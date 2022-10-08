@@ -1,35 +1,38 @@
-.box{
+.box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    width: 700px;
+    width: 385px;
     margin: auto;
     background-color: #1c2023;
+    margin-top: 15px;
 }
 
-.section1{
-    width: 30%;
-    height: 100%;
+.section1 {
+    width: 100%;
+    height: 400px;
     background-image: url('https://images.pexels.com/photos/5647067/pexels-photo-5647067.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.section2{
-    width: 70%;
+.section2 {
+    width: 100%;
+    height: 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.horarios{
+.horarios {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
+    height: 400px;
 }
 
-.datos{
+.datos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,27 +40,29 @@
     height: 200px;
     width: 100%;
     border-bottom: solid 1px gray;
+    margin: 10px 0;
 }
 
-.datos h5{
+.datos h5 {
     margin: 5px 0 5px 10px;
 }
 
-.ciudad{
+.ciudad {
     display: flex;
-    justify-content:space-between;
-    flex-direction:column;
+    justify-content: space-between;
+    flex-direction: column;
     align-items: flex-start;
     margin-left: 15px;
     height: 30%;
 }
 
-h5{
+h5 {
     margin: 2px 0;
     color: white;
     font-size: 20px;
 }
-.temp{
+
+.temp {
     display: flex;
     flex-direction: column;
     height: 70%;
@@ -66,13 +71,13 @@ h5{
     justify-content: flex-end;
 }
 
-.grados{
+.grados {
     color: white;
     font-size: 30px;
     margin: 5px;
 }
 
-.estado{
+.estado {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -80,7 +85,41 @@ h5{
     margin-bottom: 30px;
 }
 
-.estado p{
+.estado p {
     color: white;
     font-size: 20px;
+}
+
+@media (min-width: 760px) {
+    .box {
+        flex-direction: row;
+        width: 700px;
+    }
+
+    .section1 {
+        width: 30%;
+        height: 100%;
+        background-image: url('https://images.pexels.com/photos/5647067/pexels-photo-5647067.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .datos{
+        margin: 0;
+    }
+
+    .section2 {
+        width: 70%;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .horarios {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
 }
