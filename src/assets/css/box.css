@@ -1,0 +1,86 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+    margin: auto;
+    background-color: #1c2023;
+}
+
+.section1{
+    width: 30%;
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/5647067/pexels-photo-5647067.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section2{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.horarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    width: 100%;
+    border-bottom: solid 1px gray;
+}
+
+.datos h5{
+    margin: 5px 0 5px 10px;
+}
+
+.ciudad{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column;
+    align-items: flex-start;
+    margin-left: 15px;
+    height: 30%;
+}
+
+h5{
+    margin: 2px 0;
+    color: white;
+    font-size: 20px;
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    align-items: flex-start;
+    margin-left: 15px;
+    justify-content: flex-end;
+}
+
+.grados{
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.estado{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.estado p{
+    color: white;
+    font-size: 20px;
+}

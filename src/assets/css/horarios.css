@@ -1,0 +1,18 @@
+.fecha_horarios{
+    color: white;
+}
+
+
+.tipo_horarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tipo_horarios p{
+    color: white;
+}
+
+.grado_horarios{
+    color: white;
+}
